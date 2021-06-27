@@ -1,0 +1,82 @@
+#gameboard{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.box:hover{
+    background-color: lightgray;
+}
+
+.box{
+    border: 3px solid #621940;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 100px; /*supposed to stay the same as grid size*/
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid #621940;
+}
+
+body{
+    margin:0;
+}
+
+#flex{
+    display:flex;
+    justify-content: center;
+}
+
+#player1{
+    margin:10px;
+    width: 200px;
+    text-align: right;
+}
+
+#player2{
+    margin:10px;
+    width: 200px;
+    text-align: left;;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#restart{
+    width: 100px;
+    margin:auto;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 50px; /*supposed to stay the same as grid size*/
+}
+
+#restart:hover{
+    background-color: lightgray;
+}
+
+#win-status{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#win-status{
+    margin-top: 10px;
+}
